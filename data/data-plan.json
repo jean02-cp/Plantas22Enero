@@ -1,0 +1,8 @@
+[
+    {
+        "sobject": "Especies__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": ["Especies__c.json"]
+    }
+]
