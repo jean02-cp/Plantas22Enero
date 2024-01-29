@@ -1,0 +1,20 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Especies__c",
+                "referenceId": "Especies__cRef1"
+            },
+            "Descripcion__c": "Conocida por sus propiedades medicinales y aplicaciones para la piel",
+            "Imagen__c": "<img src=\"https://acdn.mitiendanube.com/stores/001/427/948/products/vera1-ba194c2a3ddfc7c6d216059200337671-480-0.webp\" alt=\"Aloe Vera\" border=\"0\"/>",
+            "LastViewedDate": "2024-01-29T21:59:57.000+0000",
+            "Localalizacion__c": "Al aire libre",
+            "Name": "Aloe Vera",
+            "Pulverizacion__c": true,
+            "Siembra__c": "Mayo",
+            "Temperatura_ideal__c": 25,
+            "Tipo__c": "Ornamental",
+            "imagen_URL__c": "https://acdn.mitiendanube.com/stores/001/427/948/products/vera1-ba194c2a3ddfc7c6d216059200337671-480-0.webp"
+        }
+    ]
+}
