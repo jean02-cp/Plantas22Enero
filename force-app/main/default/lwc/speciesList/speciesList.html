@@ -1,0 +1,7 @@
+<template>
+    <template for:each={species} for:item="spc">
+        <div key={spc.id}>
+            <c-species-tile specie={spc}></c-species-tile>
+        </div>
+    </template>
+</template>
