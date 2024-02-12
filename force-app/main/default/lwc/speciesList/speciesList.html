@@ -1,7 +1,16 @@
 <template>
-    <template for:each={species} for:item="spc">
-        <div key={spc.id}>
-            <c-species-tile specie={spc}></c-species-tile>
-        </div>
-    </template>
+    <div class="slds-align_absolute-center">
+      <div class="slds- slds-wrap slds-grid_align-spread grid">
+        <template if:true={species.data}>
+          <template for:each={species.data} for:item="specie">
+            <div key={specie.Name}>
+               <c-species-tile
+                 specie={specie}
+                 class="slds-col slds-var-m-araund_small"
+               ></c-species-tile>
+            </div>
+          </template>
+        </template>
+      </div>
+    </div>
 </template>
